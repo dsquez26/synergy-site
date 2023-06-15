@@ -1,0 +1,20 @@
+<!-- page-container.component.html -->
+<div class="page-container">
+<!-- HTML -->
+<div class="page-navigation">
+  <button class="navigation-button" (click)="goBack()" [disabled]="currentPageIndex === 0">Back</button>
+  <button class="navigation-button" (click)="goNext()" [disabled]="currentPageIndex === pages.length - 1">Next</button>
+</div>
+
+    <ng-container [ngSwitch]="currentPageIndex">
+      <app-page-one *ngSwitchCase="0"></app-page-one>
+      <app-page-two *ngSwitchCase="1"></app-page-two>
+      <app-page-three *ngSwitchCase="2"></app-page-three>
+      <app-page-four *ngSwitchCase="3"></app-page-four>
+      <app-page-five *ngSwitchCase="4"></app-page-five>
+      <app-page-six *ngSwitchCase="5"></app-page-six>
+      <app-page-seven *ngSwitchCase="6"></app-page-seven>
+      <app-page-eight *ngSwitchCase="7"></app-page-eight>
+    </ng-container>
+  </div>
+  

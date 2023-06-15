@@ -1,0 +1,30 @@
+/* Styling for the slide container */
+.slide-container {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* Styling for the slide greeting */
+.slide-greeting {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styling for the slide title */
+.slide-title {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Styling for the slide description */
+.slide-description {
+  font-size: 22px;
+  color: #777;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,19 @@
+/* slide4.component.css */
+.slide-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .slide-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .slide-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
